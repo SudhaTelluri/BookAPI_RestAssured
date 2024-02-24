@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-24T01:50:40 EST" name="Default suite" finished-at="2024-02-24T01:50:59 EST" duration-ms="19197">
+  <suite started-at="2024-02-24T10:55:10 EST" name="Default suite" finished-at="2024-02-24T10:55:26 EST" duration-ms="15844">
     <groups>
     </groups>
-    <test started-at="2024-02-24T01:50:40 EST" name="Default test" finished-at="2024-02-24T01:50:59 EST" duration-ms="19197">
+    <test started-at="2024-02-24T10:55:10 EST" name="Default test" finished-at="2024-02-24T10:55:26 EST" duration-ms="15844">
       <class name="api.test.OrderTests">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T01:50:40 EST" name="setUpData" finished-at="2024-02-24T01:50:40 EST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T10:55:10 EST" name="setUpData" finished-at="2024-02-24T10:55:10 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="apiKey01()[pri:1, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T01:50:40 EST" name="apiKey01" finished-at="2024-02-24T01:50:47 EST" duration-ms="7576" status="PASS">
+        <test-method signature="apiKey01()[pri:1, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T10:55:10 EST" name="apiKey01" finished-at="2024-02-24T10:55:17 EST" duration-ms="6627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiKey01 -->
-        <test-method signature="testPostOrder02()[pri:2, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T01:50:47 EST" name="testPostOrder02" finished-at="2024-02-24T01:50:49 EST" duration-ms="1980" status="PASS">
+        <test-method signature="testPostOrder02()[pri:2, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T10:55:17 EST" name="testPostOrder02" finished-at="2024-02-24T10:55:18 EST" duration-ms="1898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostOrder02 -->
-        <test-method signature="testGetOrderByOrderid03()[pri:3, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T01:50:49 EST" name="testGetOrderByOrderid03" finished-at="2024-02-24T01:50:52 EST" duration-ms="2514" status="PASS">
+        <test-method signature="testGetOrderByOrderid03()[pri:3, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T10:55:18 EST" name="testGetOrderByOrderid03" finished-at="2024-02-24T10:55:21 EST" duration-ms="2245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetOrderByOrderid03 -->
-        <test-method signature="testUpdateOrderByOrderId04()[pri:4, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T01:50:52 EST" name="testUpdateOrderByOrderId04" finished-at="2024-02-24T01:50:54 EST" duration-ms="2762" status="PASS">
+        <test-method signature="testUpdateOrderByOrderId04()[pri:4, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T10:55:21 EST" name="testUpdateOrderByOrderId04" finished-at="2024-02-24T10:55:23 EST" duration-ms="2231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateOrderByOrderId04 -->
-        <test-method signature="testDeleteOrderByOrderid05()[pri:5, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T01:50:54 EST" name="testDeleteOrderByOrderid05" finished-at="2024-02-24T01:50:59 EST" duration-ms="4284" status="PASS">
+        <test-method signature="testDeleteOrderByOrderid05()[pri:5, instance:api.test.OrderTests@5e0e82ae]" started-at="2024-02-24T10:55:23 EST" name="testDeleteOrderByOrderid05" finished-at="2024-02-24T10:55:26 EST" duration-ms="2776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteOrderByOrderid05 -->

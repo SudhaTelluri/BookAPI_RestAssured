@@ -24,7 +24,7 @@ public class UserEndPoints {
 	public static final ObjectMapper MAPPER = new ObjectMapper();
 
 	public static Response generateApiKey() throws IOException {
-		Faker faker=new Faker();
+		//Faker faker=new Faker();
 		RegisterClientPOJO registerapi = new RegisterClientPOJO();
 		//registerapi.setClientName("ammamma11");
 		//registerapi.setClientEmail("ammamma11@email.com");
@@ -33,8 +33,8 @@ public class UserEndPoints {
 		//registerapi.setClientEmail(faker.internet().emailAddress());
 		
 		ExcelReader excelReader=new ExcelReader();
-		registerapi.setClientName(excelReader.getNameFromExcel("ClientRegister", 2));
-		registerapi.setClientEmail(excelReader.getEmailFromExcel("ClientRegister", 2));
+		registerapi.setClientName(excelReader.getNameFromExcel("ClientRegister", 3));
+		registerapi.setClientEmail(excelReader.getEmailFromExcel("ClientRegister", 3));
 		
 		String url = "https://simple-books-api.glitch.me/api-clients/";
 		String json = MAPPER.writeValueAsString(registerapi);
