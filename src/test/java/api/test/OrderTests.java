@@ -1,5 +1,7 @@
 package api.test;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -26,7 +28,7 @@ public class OrderTests {
 	}
 
 	@Test(priority = 1)
-	public void apiKey01() throws JsonProcessingException {
+	public void apiKey01() throws IOException {
 		Response response = UserEndPoints.generateApiKey();
 		GlobalVars.extractResponse = response.then().log().all().extract().response().asString();
 		JsonPath path = new JsonPath(GlobalVars.extractResponse);
